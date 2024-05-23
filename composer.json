@@ -22,7 +22,7 @@
     "php": "^7.1.3|7.2.*|7.3.*|7.4.*|8.*",
     "laravel/framework": "~5.1|6.*|7.*|8.*|9.*|10.*|11.*",
     "imanghafoori/laravel-nullable": "dev-master",
-    "imanghafoori/laravel-smart-facades": "^1.0"
+    "imanghafoori/laravel-smart-facades": "dev-master"
   },
   "autoload-dev": {
       "psr-4": {
@@ -50,6 +50,10 @@
           "type": "vcs",
           "url": "https://github.com/changitravel/laravel-nullable"
       },
+      {
+          "type": "vcs",
+          "url": "https://github.com/changitravel/laravel-smart-facades"
+      }
   ],
   "extra": {
     "laravel": {
