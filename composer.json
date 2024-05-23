@@ -21,7 +21,7 @@
   "require": {
     "php": "^7.1.3|7.2.*|7.3.*|7.4.*|8.*",
     "laravel/framework": "~5.1|6.*|7.*|8.*|9.*|10.*|11.*",
-    "imanghafoori/laravel-nullable": "^1.2",
+    "imanghafoori/laravel-nullable": "dev-master",
     "imanghafoori/laravel-smart-facades": "^1.0"
   },
   "autoload-dev": {
@@ -45,6 +45,12 @@
     "imanghafoori/laravel-anypass": " Allows you login with any password in local environment.",
     "imanghafoori/laravel-masterpass": "You can easily set a master password without code change."
   },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/changitravel/laravel-nullable"
+      },
+  ],
   "extra": {
     "laravel": {
       "providers": [
